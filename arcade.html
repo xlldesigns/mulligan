@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Arcade</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Description">
+	<meta name="author" content="Lucas Cleric">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="External/css.css"/>
+	<link rel="stylesheet" href="External/responsive.css" media="screen and (max-width: 999px)"/>
+</head>
+
+<body>
+<!--Header-->
+<div id="head1">
+	<div class="container">
+		<div id="head1logos">
+			<a href="directions.html"><img src="Images/googlemaplogo.png"/></a>
+			<a href="mailto:palmdaleinfo@mulliganfun.com"><img src="Images/emaillogo.png"/></a>
+			<a href="contact.html"><img src="Images/phonelogo.png"/></a>
+			<a href="https://www.facebook.com/MulliganPalmdale/"><img src="Images/fblogo.png"/></a>
+		</div>
+	</div>
+</div>
+
+<div class="redhead"></div>
+
+<header>
+	<div class="container">
+		<img src="Images/headerlogo.png" />
+		<div id="headerdata">
+			525 West Avenue P-4<br/>
+			Palmdale, CA 93551<br/>
+			Tel: (661) 273-1407<br/>
+			Fax: (661) 273-1640<br/>
+			Email: <a href="mailto:palmdaleinfo@mulliganfun.com">palmdaleinfo@mulliganfun.com</a>
+		</div>
+	</div>
+</header>
+
+<div class="redhead"></div>
+
+<div id="navbg">
+	<nav>
+		<div id="navcenter">
+			<div class="navlibox"><a href="index.html">Home</a></div>
+			<div class="navlibox" id="nav1">
+				<ul class="navli">
+					<li><a href="plan.html">Plan Your Visit</a>
+						<ul class="navdrops" id="drop1">
+							<li><a href="hours.html">Hours</a></li>
+							<li><a href="directions.html">Directions</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="food.html">Food</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="faqs.html">Park FAQs & Policies</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"><a href="events.html">Events</a></div>
+			<div class="navlibox" id="nav2">
+				<ul class="navli">
+					<li><a href="attractions.html">Attractions</a>
+						<ul class="navdrops" id="drop2">
+							<li><a href="ropes.html">Ropes Course</a></li>
+							<li><a href="lazer.html">Lazer Tag</a></li>
+							<li><a href="golf.html">Miniature Golf</a></li>
+							<li><a href="gokarts.html">Go-Karts</a></li>
+							<li><a href="rookie.html">Rookie Go-Karts</a></li>
+							<li><a href="arcade.html">Arcade</a></li>
+							<li><a href="rockwall.html">Rock Wall</a></li>
+							<li><a href="batting.html">Batting Cages</a></li>
+							<li><a href="blaster.html">Blaster Boats</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"  id="nav3">
+				<ul class="navli">
+					<li><a href="groups.html">Groups</a>
+						<ul class="navdrops" id="drop3">
+							<li><a href="groupsales.html">Contact Group Sales</a></li>
+							<li><a href="corevents.html">Corporate Events</a></li>
+							<li><a href="corbanquet.html">Corporate Banquet Room</a></li>
+							<li><a href="private.html">Private Events</a></li>
+							<li><a href="groupfood.html">Group Food Specials</a></li>
+							<li><a href="sports.html">Sports Teams</a></li>
+							<li><a href="holiday.html">Holiday Parties</a></li>
+							<li><a href="schools.html">Schools</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox">
+				<ul class="navli" id="nav4">
+					<li><a href="birthdays.html">Birthdays</a>
+						<ul class="navdrops" id="drop4">
+							<li><a href="bookaparty.html">Book A Party Now</a></li>
+							<li><a href="birthdaypackages.html">Birthday Party Packages</a></li>
+							<li><a href="invitations.html">Invitations</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"><a href="shop.html">Shop</a></div>
+			<div class="navcart" onmouseover="fadeoutcart();" onmouseleave="fadeincart();">
+				<a href=""><img src="Images/shoppingcartred.png" /></a>
+				<a href=""><img id="cart" src="Images/shoppingcartgreen.png" /></a>
+			</div>
+			<div class="navcart" onmouseover="fadeoutsearch();" onmouseleave="fadeinsearch();">
+				<a href=""><img src="Images/searchiconred.png" /></a>
+				<a href=""><img id="search" src="Images/searchicongreen.png" /></a>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<!--Responsive Nav-->
+<div id="navbg2">
+	<div id="smallmenu">
+		<div id="centersmallmenu">
+			<div class="menuicon" id="opensm" onmouseover="fadeoutmenu2();" onmouseleave="fadeinmenu2();">
+				<img src="Images/navmenured.png" />
+				<img id="menu2" src="Images/navmenuwhite.png" />
+			</div>
+			<div class="menuicon" onmouseover="fadeoutcart2();" onmouseleave="fadeincart2();">
+				<a href=""><img src="Images/shoppingcartred.png" /></a>
+				<a href=""><img id="cart2" src="Images/shoppingcartwhite.png" /></a>
+			</div>
+			<div class="menuicon" onmouseover="fadeoutsearch2();" onmouseleave="fadeinsearch2();">
+				<a href=""><img src="Images/searchiconred.png" /></a>
+				<a href=""><img id="search2" src="Images/searchiconwhite.png" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="redhead" id="redhead1"></div>
+
+<div id="smnavmenu">
+	<div class="menuboxgreen"><a href="index.html">Home</a></div>
+
+	<div class="menuboxgreen"><p id="smmenutab1">Plan Your Visit</p></div>
+	<div class="menuboxwhite" id="whitemenutab1">
+		<ul>
+			<li><a href="hours.html">Hours</a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="food.html">Food</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="faqs.html">Park FAQs & Policies</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><a href="events.html">Events</a></div>
+
+	<div class="menuboxgreen"><p id="smmenutab2">Attractions</p></div>
+	<div class="menuboxwhite" id="whitemenutab2">
+		<ul>
+			<li><a href="ropes.html">Ropes Course</a></li>
+			<li><a href="lazer.html">Lazer Tag</a></li>
+			<li><a href="golf.html">Miniature Golf</a></li>
+			<li><a href="gokarts.html">Go-Karts</a></li>
+			<li><a href="rookie.html">Rookie Go-Karts</a></li>
+			<li><a href="arcade.html">Arcade</a></li>
+			<li><a href="rockwall.html">Rock Wall</a></li>
+			<li><a href="batting.html">Batting Cages</a></li>
+			<li><a href="blaster.html">Blaster Boats</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><p id="smmenutab3">Groups</p></div>
+	<div class="menuboxwhite" id="whitemenutab3">
+		<ul>
+			<li><a href="groupsales.html">Contact Group Sales</a></li>
+			<li><a href="corevents.html">Corporate Events</a></li>
+			<li><a href="corbanquet.html">Corporate Banquet Room</a></li>
+			<li><a href="private.html">Private Events</a></li>
+			<li><a href="groupfood.html">Group Food Specials</a></li>
+			<li><a href="sports.html">Sports Teams</a></li>
+			<li><a href="holiday.html">Holiday Parties</a></li>
+			<li><a href="schools.html">Schools</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><p id="smmenutab4">Birthdays</p></div>
+	<div class="menuboxwhite" id="whitemenutab4">
+		<ul>
+			<li><a href="bookaparty.html">Book A Party Now</a></li>
+			<li><a href="birthdaypackages.html">Birthday Party Packages</a></li>
+			<li><a href="invitations.html">Invitations</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><a href="shop.html">Shop Online</a></div>
+</div>
+
+<!--Title-->
+<div id="titlebox">Arcade</div>
+<div id="greenbr"></div>
+<div class="redhead"></div>
+
+<!--Main-->
+<div class="container">
+
+<img width="100%" src="Images/attractions/arcade.jpg"/>
+
+<div id="attractionsad">
+<p>Fun Cards are great ways to save money.</p>
+
+<a href="pricing.html">FIND OUT MORE<br/> ABOUT FUN CARDS</a>
+</div>
+
+<h1>Arcade</h1>
+
+<p>Don’t miss the Arcade with the latest and hottest games available to play in a safe environment. The Arcade is packed with all the action you could want. We offer a variety of video games and ticket redemption games, challenging kids of all ages! Play for fun or collect winning tickets and redeem them for prizes at our prize center.</p><br/>
+
+<h1>Pricing</h1>
+
+<h2>Varies</h2>
+
+<br/>
+
+<!--Main Slideshow-->
+<div id="otheratt1">
+	<h1>Be sure to check out our other attractions!</h1>
+	<div id="otherslide1">
+		<div id="other1third1" class="other1thirds">
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt11" href="ropes.html">
+					<img id="otheratt11" src="Images/attractions/ropes-course-sm.jpg"/>
+					<br/>Ropes Course
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt12" href="lazer.html">
+					<img id="otheratt12" src="Images/attractions/lazer-sm.jpg"/>
+					<br/>Lazer Tag
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt13" href="golf.html">
+					<img id="otheratt13" src="Images/attractions/miniature-golf-sm.jpg"/>
+					<br/>Miniature Golf
+				</a>
+			</div>
+		</div>
+		<div id="other1third2" class="other1thirds">
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt14" href="gokarts.html">
+					<img id="otheratt14" src="Images/attractions/go-karts-sm.jpg"/>
+					<br/>Go-Karts
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt15" href="rookie.html">
+					<img id="otheratt15" src="Images/attractions/rookie-go-karts-sm.jpg"/>
+					<br/>Rookie Go-Karts
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt16" href="arcade.html">
+					<img id="otheratt16" src="Images/attractions/arcade-sm.jpg"/>
+					<br/>Arcade
+				</a>
+			</div>
+		</div>
+		<div id="other1third3" class="other1thirds">
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt17" href="rockwall.html">
+					<img id="otheratt17" src="Images/attractions/rock-wall-sm.jpg"/>
+					<br/>Rock Wall
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt18" href="batting.html">
+					<img id="otheratt18" src="Images/attractions/batting-cage-sm.jpg"/>
+					<br/>Batting Cages
+				</a>
+			</div>
+			<div class="other1wrap">
+				<a class="otheratt1hide" id="anchoratt19" href="blaster.html">
+					<img id="otheratt19" src="Images/attractions/blaster-boats-sm.jpg"/>
+					<br/>Blaster Boats
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<img id="attleftattarrow1" src="Images/attractions/leftarrow.png" onclick="other1left();"/>
+	<img id="attrightattarrow1" src="Images/attractions/rightarrow.png" onclick="other1right();"/>
+</div>
+
+<!--Responsive Slideshow-->
+<div id="otheratt2">
+	<h1>Be sure to check out our other attractions!</h1>
+	<div id="otherslide2">
+		<a class="otheratt2hide" id="anchoratt21" href="ropes.html">
+			<img id="otheratt21" src="Images/attractions/ropes-course-sm.jpg"/>
+			Ropes Course
+		</a>
+		<a class="otheratt2hide" id="anchoratt22" href="lazer.html">
+			<img id="otheratt22" src="Images/attractions/lazer-sm.jpg"/>
+			Lazer Tag
+		</a>
+		<a class="otheratt2hide" id="anchoratt23" href="golf.html">
+			<img id="otheratt23" src="Images/attractions/miniature-golf-sm.jpg"/>
+			Miniature Golf
+		</a>
+		<a class="otheratt2hide" id="anchoratt24" href="gokarts.html">
+			<img id="otheratt24" src="Images/attractions/go-karts-sm.jpg"/>
+			Go-Karts
+		</a>
+		<a class="otheratt2hide" id="anchoratt25" href="rookie.html">
+			<img id="otheratt25" src="Images/attractions/rookie-go-karts-sm.jpg"/>
+			Rookie Go-Karts
+		</a>
+		<a class="otheratt2hide" id="anchoratt26" href="arcade.html">
+			<img id="otheratt26" src="Images/attractions/arcade-sm.jpg"/>
+			Arcade
+		</a>
+		<a class="otheratt2hide" id="anchoratt27" href="rockwall.html">
+			<img id="otheratt27" src="Images/attractions/rock-wall-sm.jpg"/>
+			Rock Wall
+		</a>
+		<a class="otheratt2hide" id="anchoratt28" href="batting.html">
+			<img id="otheratt28" src="Images/attractions/batting-cage-sm.jpg"/>
+			Batting Cages
+		</a>
+		<a class="otheratt2hide" id="anchoratt29" href="blaster.html">
+			<img id="otheratt29" src="Images/attractions/blaster-boats-sm.jpg"/>
+			Blaster Boats
+		</a>
+	</div>
+	
+	<img id="attleftattarrow" src="Images/attractions/leftarrow.png" onclick="other2left();"/>
+	<img id="attrightattarrow" src="Images/attractions/rightarrow.png" onclick="other2right();"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="redhead"></div>
+
+<!--Footer-->
+<footer>
+<div id="footertop">
+	<div class="foottopdiv">
+		<a class="foottitle" href="index.html">Home</a><br/><br/>
+
+		<a class="foottitle" href="plan.html">Plan Your Visit</a><br/>
+		<a class="footbaby" href="hours.html">Hours</a><br/>
+		<a class="footbaby" href="directions.html">Directions</a><br/>
+		<a class="footbaby" href="pricing.html">Pricing</a><br/>
+		<a class="footbaby" href="events.html">Events</a><br/>
+		<a class="footbaby" href="food.html">Food</a><br/>
+		<a class="footbaby" href="contact.html">Contact Us</a><br/>
+		<a class="footbaby" href="faqs.html">Park FAQs & Policies</a><br/><br/>
+	</div>
+
+	<div class="foottopdiv">
+		<a class="foottitle" href="events.html">Events</a><br/><br/>
+	
+		<a class="foottitle" href="attractions.html">Attractions</a><br/>
+		<a class="footbaby" href="ropes.html">Ropes Course</a><br/>
+		<a class="footbaby" href="lazer.html">Lazer Tag</a><br/>
+		<a class="footbaby" href="golf.html">Miniature Golf</a><br/>
+		<a class="footbaby" href="gokarts.html">Go-Karts</a><br/>
+		<a class="footbaby" href="rookie.html">Rookie Go-Karts</a><br/>
+		<a class="footbaby" href="arcade.html">Arcade</a><br/>
+		<a class="footbaby" href="rockwall.html">Rock Wall</a><br/>
+		<a class="footbaby" href="batting.html">Batting Cages</a><br/>
+		<a class="footbaby" href="blaster.html">Blaster Boats</a><br/><br/>
+	</div>
+
+	<div class="foottopdiv">
+		<a class="foottitle" href="groups.html">Groups</a><br/>
+		<a class="footbaby" href="groupsales.html">Contact Group Sales</a><br/>
+		<a class="footbaby" href="corevents.html">Corporate Events</a><br/>
+		<a class="footbaby" href="corbanquet.html">Corporate Banquet Room</a><br/>
+		<a class="footbaby" href="private.html">Private Events</a><br/>
+		<a class="footbaby" href="groupfood.html">Group Food Specials</a><br/>
+		<a class="footbaby" href="sports.html">Sports Teams</a><br/>
+		<a class="footbaby" href="holiday.html">Holiday Parties</a><br/>
+		<a class="footbaby" href="schools.html">Schools</a><br/><br/>
+	</div>
+	
+	<div class="foottopdiv">
+		<a class="foottitle" href="birthdays.html">Birthdays</a><br/>
+		<a class="footbaby" href="bookaparty.html">Book A Party Now</a><br/>
+		<a class="footbaby" href="birthdaypackages.html">Birthday Party Packages</a><br/>
+		<a class="footbaby" href="invitations.html">Invitations</a><br/><br/>
+
+		<a class="foottitle" href="shop.html">Shop</a>
+	</div>
+</div>
+
+<div id="footbottom">&copy; Mulligan Family Fun Center, All Rights Reserved</div>
+</footer>
+
+<script src="External/jquery-3.1.1.min.js"></script>
+<script src="External/jquery.js"></script>
+<script src="External/javascript.js"></script>
+<script>other2change();</script>
+</body>
+</html>

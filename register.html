@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Description">
+	<meta name="author" content="Lucas Cleric">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="External/css.css"/>
+	<link rel="stylesheet" href="External/responsive.css" media="screen and (max-width: 999px)"/>
+</head>
+
+<body id="registrationbody">
+
+<img src="Images/headerlogo.png" />
+
+<form action="registration.php" method="get" onsubmit="checkregistration();">
+	<fieldset>
+		<legend>Mulligan Family Fun Center Mailing Registration:</legend><br/>
+
+		Email Address:<span class="regreqd">*</span><br/>
+		<input id="email" class="regtxtinput" type="text" name="email" placeholder="Email Address"><br/><br/>
+
+		First name:<span class="regreqd">*</span><br/>
+		<input id="firstname" class="regtxtinput" type="text" name="firstname" placeholder="First Name"><br/><br/>
+
+		Last name:<span class="regreqd">*</span><br/>
+		<input id="lastname" class="regtxtinput" type="text" name="lastname" placeholder="Last Name"><br/><br/>
+
+		Phone Number:<br/>
+		<input class="regtxtinput" type="text" name="phone" placeholder="Phone Number"><br/><br/>
+
+		Home Address:<br/>
+		<input class="regtxtinput" type="text" name="address" placeholder="Home Address"><br/><br/>
+
+		Zip Code:<br/>
+		<input class="regtxtinput" type="text" name="zip" placeholder="Zip Code"><br/><br/>
+
+		Please Select Interests:<span class="regreqd">*</span><br/>
+		<input id="regcheckbox1" type="checkbox" name="interests" value="email" checked="checked"/><label>Email Subscription</label><br/>
+		<input id="regcheckbox2" type="checkbox" name="interests" value="mailing"/><label>Mailing Subscription</label><br/>
+		<input id="regcheckbox3" type="checkbox" name="interests" value="birthday"/><label>Birthday Coupon Club</label><br/>
+		<input id="regcheckbox4" type="checkbox" name="interests" value="business"/><label>Business</label><br/>
+		<input id="regcheckbox5" type="checkbox" name="interests" value="general"/><label>General Interest</label><br/><br/>
+		
+		<input id="regbuttonres" type="reset" value="Reset"/><br/>
+		<input id="regbuttonsub" type="submit" value="Sign Up"/>
+	</fieldset>
+</form>
+
+<script src="External/jquery-3.1.1.min.js"></script>
+<script src="External/jquery.js"></script>
+<script src="External/javascript.js"></script>
+</body>
+</html>

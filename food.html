@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Food</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Description">
+	<meta name="author" content="Lucas Cleric">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="External/css.css"/>
+	<link rel="stylesheet" href="External/responsive.css" media="screen and (max-width: 999px)"/>
+</head>
+
+<body>
+<!--Header-->
+<div id="head1">
+	<div class="container">
+		<div id="head1logos">
+			<a href="directions.html"><img src="Images/googlemaplogo.png"/></a>
+			<a href="mailto:palmdaleinfo@mulliganfun.com"><img src="Images/emaillogo.png"/></a>
+			<a href="contact.html"><img src="Images/phonelogo.png"/></a>
+			<a href="https://www.facebook.com/MulliganPalmdale/"><img src="Images/fblogo.png"/></a>
+		</div>
+	</div>
+</div>
+
+<div class="redhead"></div>
+
+<header>
+	<div class="container">
+		<img src="Images/headerlogo.png" />
+		<div id="headerdata">
+			525 West Avenue P-4<br/>
+			Palmdale, CA 93551<br/>
+			Tel: (661) 273-1407<br/>
+			Fax: (661) 273-1640<br/>
+			Email: <a href="mailto:palmdaleinfo@mulliganfun.com">palmdaleinfo@mulliganfun.com</a>
+		</div>
+	</div>
+</header>
+
+<div class="redhead"></div>
+
+<div id="navbg">
+	<nav>
+		<div id="navcenter">
+			<div class="navlibox"><a href="index.html">Home</a></div>
+			<div class="navlibox" id="nav1">
+				<ul class="navli">
+					<li><a href="plan.html">Plan Your Visit</a>
+						<ul class="navdrops" id="drop1">
+							<li><a href="hours.html">Hours</a></li>
+							<li><a href="directions.html">Directions</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="food.html">Food</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="faqs.html">Park FAQs & Policies</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"><a href="events.html">Events</a></div>
+			<div class="navlibox" id="nav2">
+				<ul class="navli">
+					<li><a href="attractions.html">Attractions</a>
+						<ul class="navdrops" id="drop2">
+							<li><a href="ropes.html">Ropes Course</a></li>
+							<li><a href="lazer.html">Lazer Tag</a></li>
+							<li><a href="golf.html">Miniature Golf</a></li>
+							<li><a href="gokarts.html">Go-Karts</a></li>
+							<li><a href="rookie.html">Rookie Go-Karts</a></li>
+							<li><a href="arcade.html">Arcade</a></li>
+							<li><a href="rockwall.html">Rock Wall</a></li>
+							<li><a href="batting.html">Batting Cages</a></li>
+							<li><a href="blaster.html">Blaster Boats</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"  id="nav3">
+				<ul class="navli">
+					<li><a href="groups.html">Groups</a>
+						<ul class="navdrops" id="drop3">
+							<li><a href="groupsales.html">Contact Group Sales</a></li>
+							<li><a href="corevents.html">Corporate Events</a></li>
+							<li><a href="corbanquet.html">Corporate Banquet Room</a></li>
+							<li><a href="private.html">Private Events</a></li>
+							<li><a href="groupfood.html">Group Food Specials</a></li>
+							<li><a href="sports.html">Sports Teams</a></li>
+							<li><a href="holiday.html">Holiday Parties</a></li>
+							<li><a href="schools.html">Schools</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox">
+				<ul class="navli" id="nav4">
+					<li><a href="birthdays.html">Birthdays</a>
+						<ul class="navdrops" id="drop4">
+							<li><a href="bookaparty.html">Book A Party Now</a></li>
+							<li><a href="birthdaypackages.html">Birthday Party Packages</a></li>
+							<li><a href="invitations.html">Invitations</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navlibox"><a href="shop.html">Shop</a></div>
+			<div class="navcart" onmouseover="fadeoutcart();" onmouseleave="fadeincart();">
+				<a href=""><img src="Images/shoppingcartred.png" /></a>
+				<a href=""><img id="cart" src="Images/shoppingcartgreen.png" /></a>
+			</div>
+			<div class="navcart" onmouseover="fadeoutsearch();" onmouseleave="fadeinsearch();">
+				<a href=""><img src="Images/searchiconred.png" /></a>
+				<a href=""><img id="search" src="Images/searchicongreen.png" /></a>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<!--Responsive Nav-->
+<div id="navbg2">
+	<div id="smallmenu">
+		<div id="centersmallmenu">
+			<div class="menuicon" id="opensm" onmouseover="fadeoutmenu2();" onmouseleave="fadeinmenu2();">
+				<img src="Images/navmenured.png" />
+				<img id="menu2" src="Images/navmenuwhite.png" />
+			</div>
+			<div class="menuicon" onmouseover="fadeoutcart2();" onmouseleave="fadeincart2();">
+				<a href=""><img src="Images/shoppingcartred.png" /></a>
+				<a href=""><img id="cart2" src="Images/shoppingcartwhite.png" /></a>
+			</div>
+			<div class="menuicon" onmouseover="fadeoutsearch2();" onmouseleave="fadeinsearch2();">
+				<a href=""><img src="Images/searchiconred.png" /></a>
+				<a href=""><img id="search2" src="Images/searchiconwhite.png" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="redhead" id="redhead1"></div>
+
+<div id="smnavmenu">
+	<div class="menuboxgreen"><a href="index.html">Home</a></div>
+
+	<div class="menuboxgreen"><p id="smmenutab1">Plan Your Visit</p></div>
+	<div class="menuboxwhite" id="whitemenutab1">
+		<ul>
+			<li><a href="hours.html">Hours</a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="food.html">Food</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="faqs.html">Park FAQs & Policies</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><a href="events.html">Events</a></div>
+
+	<div class="menuboxgreen"><p id="smmenutab2">Attractions</p></div>
+	<div class="menuboxwhite" id="whitemenutab2">
+		<ul>
+			<li><a href="ropes.html">Ropes Course</a></li>
+			<li><a href="lazer.html">Lazer Tag</a></li>
+			<li><a href="golf.html">Miniature Golf</a></li>
+			<li><a href="gokarts.html">Go-Karts</a></li>
+			<li><a href="rookie.html">Rookie Go-Karts</a></li>
+			<li><a href="arcade.html">Arcade</a></li>
+			<li><a href="rockwall.html">Rock Wall</a></li>
+			<li><a href="batting.html">Batting Cages</a></li>
+			<li><a href="blaster.html">Blaster Boats</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><p id="smmenutab3">Groups</p></div>
+	<div class="menuboxwhite" id="whitemenutab3">
+		<ul>
+			<li><a href="groupsales.html">Contact Group Sales</a></li>
+			<li><a href="corevents.html">Corporate Events</a></li>
+			<li><a href="corbanquet.html">Corporate Banquet Room</a></li>
+			<li><a href="private.html">Private Events</a></li>
+			<li><a href="groupfood.html">Group Food Specials</a></li>
+			<li><a href="sports.html">Sports Teams</a></li>
+			<li><a href="holiday.html">Holiday Parties</a></li>
+			<li><a href="schools.html">Schools</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><p id="smmenutab4">Birthdays</p></div>
+	<div class="menuboxwhite" id="whitemenutab4">
+		<ul>
+			<li><a href="bookaparty.html">Book A Party Now</a></li>
+			<li><a href="birthdaypackages.html">Birthday Party Packages</a></li>
+			<li><a href="invitations.html">Invitations</a></li>
+		</ul>
+	</div>
+
+	<div class="menuboxgreen"><a href="shop.html">Shop Online</a></div>
+</div>
+
+<!--Title-->
+<div id="titlebox">Food</div>
+<div id="greenbr"></div>
+<div class="redhead"></div>
+
+<!--Main-->
+<div class="container maincenter">
+
+<h1>Combo Deals</h1>
+
+<div class="fooddiv">
+	<div class="foodtitle">Combo #1</div><br/>
+	<span class="fooddollar">$</span><span class="dollar">32</span><span class="cents">99</span>
+	<p>1 – Large 2 Topping or Specialty Pizza, 1 Pitcher of Soda, & 40 Arcade Tokens</p>
+</div>
+
+<div class="fooddiv">
+	<div class="foodtitle">Combo #2</div><br/>
+	<span class="fooddollar">$</span><span class="dollar">62</span><span class="cents">99</span>
+	<p>2 -Large 2 Topping or Specialty Pizzas, 2 Pitchers of Soda, & 100 Arcade Tokens</p>
+</div>
+
+<p>Add on 8 Piece Buffalo Wings for $8.99 or 16 Piece Buffalo Wings for $16.99</p>
+
+<div class="redhead"></div>
+
+<img id="foodimg1" src="Images/pizza.jpg"/>
+
+<div class="fooddiv">
+	<h1>Build Your Own Pizza</h1>
+	<p class="boldmenu">7″ Individual Cheese Pizza – $5.49</p>
+	<p>Each topping $.29</p>
+	<br/>
+	<p class="boldmenu">14″ Large Cheese Pizza – $14.99</p>
+	<p>Each topping $1.19</p>
+	<br/>
+	<p class="boldmenu">Additional Toppings:</p>
+	<p>Pepperoni • Sausage • Ham • Chicken • Onions • Tomatoes • Olives • Mushrooms • Pineapple • Jalapeños • Extra Cheese • BBQ Sauce</p>
+</div>
+
+<div class="fooddiv">
+	<h1>Specialty Pizza</h1>
+	<p class="boldmenu">Meat Supreme – $17.99</p>
+	<p>Pepperoni, Sausage, Chicken, & Ham</p>
+	<br/>
+	<p class="boldmenu">Super Supreme – $17.99</p>
+	<p>Pepperoni, Sausage, Tomatoes, Onions, & Mushrooms</p>
+	<br/>
+	<p class="boldmenu">Veggie Supreme – $17.99</p>
+	<p>Mushrooms, Tomatoes, Onions, & Olives</p>
+	<br/>
+	<p class="boldmenu">Hawaiian – $16.99</p>
+	<p>Ham & Pineapple</p>
+	<br/>
+	<p class="boldmenu">BBQ Chicken – $16.99</p>
+	<p>Chicken, Onions, & BBQ Sauce</p>
+</div>
+
+<div class="fooddiv">
+	<h1>Sandwiches</h1>
+	<p>Served with fries or side salad. Add cheese .59</p>
+	<p class="boldmenu">Grilled Chicken Sandwich – $7.99</p>
+	<p>Chicken Breast, Lettuce, Tomato, Onion, & Honey Mustard Dressing</p>
+	<br/>
+	<p class="boldmenu">Spicy Chicken Sandwich – $7.99</p>
+	<p>Fried Spicy Chicken Patty, Lettuce, Ranch Dressing, & Buffalo Sauce</p>
+	<br/>
+	<p class="boldmenu">Hamburger – $6.99</p>
+	<p>1/3 Beef Patty, Lettuce, Tomato, Onion, & Thousand Island</p>
+</div>
+
+<div class="fooddiv">
+	<h1>Salads</h1>
+	<p>With Croutons & Choice of Dressing: Ranch, Italian, Honey Mustard, Caesar, Thousand Island, or Blue Cheese</p>
+	<p class="boldmenu">Garden – $4.99</p>
+	<p>Lettuce, Tomatoes, Onions, & Cheese</p>
+	<br/>
+	<p class="boldmenu">Chicken – $7.99</p>
+	<p>Lettuce, Grilled Chicken, & Parmesan Cheese</p>
+	<br/>
+	<p class="boldmenu">Antipasto – $7.99</p>
+	<p>Lettuce, Pepperoni, Ham, Mozzarella, & Olives</p>
+	<br/>
+	<p class="boldmenu">Chef – $7.99</p>
+	<p>Lettuce, Ham, Cheese, Tomatoes, & Olives</p>
+</div>
+
+<div class="fooddiv">
+	<h1>Chicken Selection</h1>
+	<p class="boldmenu">Buffalo Wings</p>
+	<p>Bone – In or Boneless</p>
+	<br/>
+	<p class="boldmenu">8 Pieces – $8.99</p>
+	<p class="boldmenu">16 Pieces – $16.99</p>
+	<p class="boldmenu">24 Pieces – $32.99</p>
+	<br/>
+	<p class="boldmenu">Fried Chicken Strips</p>
+	<p>Served with Fries or Side Salad</p>
+	<br/>
+	<p class="boldmenu">4 Pieces – $8.49</p>
+	<p class="boldmenu">8 Pieces – $15.49</p>
+	<p class="boldmenu">12 Pieces – $25.99</p>
+</div>
+
+<div class="fooddiv">
+	<h1>Snacks & Sides</h1>
+	<p class="boldmenu">French Fries – $3.39</p>
+	<br/>
+	<p class="boldmenu">Chili Cheese Fries – $4.69</p>
+	<br/>
+	<p class="boldmenu">Nachos – $3.79</p>
+	<p>Add Chili $.59</p>
+	<br/>
+	<p class="boldmenu">Hot Dog (1/4 lb All Beef) – $3.99</p>
+	<br/>
+	<p class="boldmenu">Chili Cheese Dog – $5.17</p>
+	<br/>
+	<p class="boldmenu">Pretzel – $2.99</p>
+	<p>Cheese $.59</p>
+	<br/>
+	<p class="boldmenu">Cheese Quesadilla (With Chicken add $3.00) – $4.49</p>
+	<p>Add Salsa $.59</p>
+</div>
+
+<div class="fooddiv">
+	<h1>For the Kids</h1>
+	<p>Served with Fries & 12 oz. Soft Drink. Upgrade to a Slushie for $.99</p>
+	<br/>
+	<p class="boldmenu">Chicken Strips (2) – $6.49</p>
+	<br/>
+	<p class="boldmenu">Cheese Quesadilla – $6.49</p>
+	<br/>
+	<p class="boldmenu">Mini Corn Dogs (6)  – $6.49</p>
+</div>
+
+<div class="redhead"></div>
+
+<h1>Beverages</h1>
+
+<div class="bevdiv">
+	<p class="boldmenu">Small</p>
+	<p>Soda  – $3.29</p>
+	<p>Slushie  – $3.99</p>
+	<br/>
+	<p class="boldmenu">Medium</p>
+	<p>Soda  – $3.69</p>
+	<p>Slushie  – $4.39</p>
+	<br/>
+	<p class="boldmenu">Large</p>
+	<p>Soda  – $3.99</p>
+	<p>Slushie  – $4.39</p>
+</div>
+
+<div class="bevdiv">
+	<p class="boldmenu">Pitcher</p>
+	<p>Soda  – $7.49</p>
+	<br/>
+	<p class="boldmenu">Cup Refill</p>
+	<p>Soda  – $1.89</p>
+	<p>Slushie  – $2.59</p>
+	<br/>
+	<p class="boldmenu">Pitcher Refill</p>
+	<p>Soda  – $2.99</p>
+	<br/>
+	<p class="boldmenu">Bottled Water</p>
+	<p>20 oz  – $2.49</p>
+	<p>1 Liter  – $3.99</p>
+</div>
+
+<div class="bevdiv">
+	<p class="boldmenu">Beer & Wine</p>
+	<p>Domestic Draft – 16oz – $7.49</p>
+	<p>Craft / Import Draft – 16oz – $8.49</p>
+	<p>Wine – 6.5oz – $7.49</p>
+	<br/>
+	<p>We ID everyone for alcohol purchases. Sales end one hour prior to closing. Limit one per transaction. Not permitted near attractions.</p>
+</div>
+
+<br/>
+<p style="clear:left;">SEATING IS AVAILABLE ON A FIRST COME FIRST SERVE BASIS.<br/>NO OUTSIDE FOOD OR DRINKS ARE ALLOWED.</p>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="redhead"></div>
+
+<!--Footer-->
+<footer>
+<div id="footertop">
+	<div class="foottopdiv">
+		<a class="foottitle" href="index.html">Home</a><br/><br/>
+
+		<a class="foottitle" href="plan.html">Plan Your Visit</a><br/>
+		<a class="footbaby" href="hours.html">Hours</a><br/>
+		<a class="footbaby" href="directions.html">Directions</a><br/>
+		<a class="footbaby" href="pricing.html">Pricing</a><br/>
+		<a class="footbaby" href="events.html">Events</a><br/>
+		<a class="footbaby" href="food.html">Food</a><br/>
+		<a class="footbaby" href="contact.html">Contact Us</a><br/>
+		<a class="footbaby" href="faqs.html">Park FAQs & Policies</a><br/><br/>
+	</div>
+
+	<div class="foottopdiv">
+		<a class="foottitle" href="events.html">Events</a><br/><br/>
+	
+		<a class="foottitle" href="attractions.html">Attractions</a><br/>
+		<a class="footbaby" href="ropes.html">Ropes Course</a><br/>
+		<a class="footbaby" href="lazer.html">Lazer Tag</a><br/>
+		<a class="footbaby" href="golf.html">Miniature Golf</a><br/>
+		<a class="footbaby" href="gokarts.html">Go-Karts</a><br/>
+		<a class="footbaby" href="rookie.html">Rookie Go-Karts</a><br/>
+		<a class="footbaby" href="arcade.html">Arcade</a><br/>
+		<a class="footbaby" href="rockwall.html">Rock Wall</a><br/>
+		<a class="footbaby" href="batting.html">Batting Cages</a><br/>
+		<a class="footbaby" href="blaster.html">Blaster Boats</a><br/><br/>
+	</div>
+
+	<div class="foottopdiv">
+		<a class="foottitle" href="groups.html">Groups</a><br/>
+		<a class="footbaby" href="groupsales.html">Contact Group Sales</a><br/>
+		<a class="footbaby" href="corevents.html">Corporate Events</a><br/>
+		<a class="footbaby" href="corbanquet.html">Corporate Banquet Room</a><br/>
+		<a class="footbaby" href="private.html">Private Events</a><br/>
+		<a class="footbaby" href="groupfood.html">Group Food Specials</a><br/>
+		<a class="footbaby" href="sports.html">Sports Teams</a><br/>
+		<a class="footbaby" href="holiday.html">Holiday Parties</a><br/>
+		<a class="footbaby" href="schools.html">Schools</a><br/><br/>
+	</div>
+	
+	<div class="foottopdiv">
+		<a class="foottitle" href="birthdays.html">Birthdays</a><br/>
+		<a class="footbaby" href="bookaparty.html">Book A Party Now</a><br/>
+		<a class="footbaby" href="birthdaypackages.html">Birthday Party Packages</a><br/>
+		<a class="footbaby" href="invitations.html">Invitations</a><br/><br/>
+
+		<a class="foottitle" href="shop.html">Shop</a>
+	</div>
+</div>
+
+<div id="footbottom">&copy; Mulligan Family Fun Center, All Rights Reserved</div>
+</footer>
+
+<script src="External/jquery-3.1.1.min.js"></script>
+<script src="External/jquery.js"></script>
+<script src="External/javascript.js"></script>
+</body>
+</html>
